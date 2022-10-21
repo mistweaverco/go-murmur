@@ -12,6 +12,6 @@ import (
 
 func main() {
 	h := mm.MurmurHash2([]byte("hello"), 1)
-	println(h)
+	println(h) // prints 2788266382
 }
 ```
